@@ -1,0 +1,13 @@
+{
+    "subscriptions": {
+        "source": "https://tamedia-interview-exercise.s3.eu-central-1.amazonaws.com/de_interview/current_subscription/subscription_current_20230426.csv",
+        "format": "csv"
+    },
+    "sessions": {
+        "source": [
+            "https://tamedia-interview-exercise.s3.eu-central-1.amazonaws.com/de_interview/ga_session_details/ga_session_details_20230301.csv",
+            "https://tamedia-interview-exercise.s3.eu-central-1.amazonaws.com/de_interview/ga_session_details/ga_session_details_20230302.csv"
+        ],
+        "format": "csv"
+    }
+}

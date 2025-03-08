@@ -1,0 +1,19 @@
+name: "tx_services"
+version: "1.0.0"
+profile: "tx_services"
+
+
+vars:
+  start_date: "2025-03-01"
+  end_date: "2025-03-01"
+
+
+models:
+
+  tx_services:
+    biz:
+      dataset: 'BIZ'
+      +tags: 'biz'
+      +materialized: table
+    
+

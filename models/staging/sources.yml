@@ -1,0 +1,21 @@
+ersion: 2
+
+sources:
+  - name: ext
+    schema: main
+    tables:
+      - name: subscriptions
+        external:
+          location: 's3://tamedia-interview-exercise/de_interview/current_subscription/subscription_current_20230426.csv'
+          format: csv
+          options:
+            delimiter: ","
+            header: true
+
+      - name: sessions
+        external:
+          location: 's3://tamedia-interview-exercise/de_interview/ga_session_details_*.csv'
+          format: csv
+          options:
+            delimiter: ","
+            header: true
